@@ -1,7 +1,7 @@
 baseURL: https://kuaaaang.devtokki.com/
 
-languageCode: bn
-title: "John's Blog"
+languageCode: ko
+title: "Kuaaaang's Blog"
 
 # Use Hugo modules to add theme
 module:
@@ -24,18 +24,18 @@ build:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
+  ko:
+    languageCode: ko 
+    languageName: Korean 
+    title: "Kuaaaang's Blog"
+    weight: 1
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
-    weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+    title: "Kuaaaang's Blog"
     weight: 2
-# default language for the content
-defaultContentLanguage: en
+  # default language for the content
+defaultContentLanguage: en 
 
 
 # Allow raw html in markdown file
